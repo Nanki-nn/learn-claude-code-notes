@@ -1,5 +1,6 @@
 .env
 .venv/
+.idea/
 __pycache__/
 *.pyc
 .DS_Store
@@ -7,4 +8,3 @@ __pycache__/
 .team/
 .transcripts/
 output_test/
-
