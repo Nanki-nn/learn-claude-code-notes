@@ -21,7 +21,9 @@
 1. 先读 `docs/00-map.md`，理解整体路线。
 2. 再读 `docs/s01-agent-loop.md`，理解最小 agent loop。
 3. 再读 `docs/s02-tool-use.md`，理解工具声明、工具分发、文件安全边界。
-4. 对照 `examples/` 里的注释代码手动跑一遍。
+4. 再读 `docs/s03-todo-write.md`，理解 TodoWrite 和 reminder 注入。
+5. 再读 `docs/s04-subagent.md`，理解 subagent 解决的上下文隔离问题。
+6. 对照 `examples/` 里的注释代码手动跑一遍。
 
 ## 当前内容
 
@@ -30,6 +32,8 @@ docs/
   00-map.md              总体学习地图
   s01-agent-loop.md      s01: 最小 agent loop
   s02-tool-use.md        s02: 多工具 + dispatch map
+  s03-todo-write.md      s03: TodoWrite + nag reminder
+  s04-subagent.md        s04: Subagent + context isolation
 
 examples/
   s02_tool_use_explained.py
@@ -47,4 +51,3 @@ notes/
 ```
 
 原仓库代码仍然是事实来源。这个仓库只做解释、重写、画图和实验。
-
