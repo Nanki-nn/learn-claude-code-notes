@@ -26,8 +26,8 @@
 | s02 | 多工具 + dispatch map | 怎么把工具拆得更清楚 |
 | s03 | TodoWrite | 长任务怎么保持计划 |
 | s04 | subagent | 大任务怎么拆成独立上下文 |
-| s05 | skills | 知识怎么按需加载 |
-| s06 | context compact | 上下文太长怎么办 |
+| [s05](./s05-skill-loading.md) | skills | 知识怎么按需加载 |
+| [s06](./s06-context-compact.md) | context compact | 上下文太长怎么办 |
 | s07 | task system | 任务怎么持久化 |
 | s08 | background tasks | 慢命令怎么后台跑 |
 | s09 | agent teams | 多 agent 怎么通信 |
@@ -63,4 +63,3 @@ Python 代码负责提供环境：
 `messages` 是模型能看到的“世界状态”。
 
 模型不会记得 Python 变量本身，它只能看到你每轮传进去的 `messages`。所以工具结果、用户问题、assistant 上一轮回答，都要不断追加进去。
-

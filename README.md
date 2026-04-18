@@ -23,7 +23,9 @@
 3. 再读 `docs/s02-tool-use.md`，理解工具声明、工具分发、文件安全边界。
 4. 再读 `docs/s03-todo-write.md`，理解 TodoWrite 和 reminder 注入。
 5. 再读 `docs/s04-subagent.md`，理解 subagent 解决的上下文隔离问题。
-6. 对照 `examples/` 里的注释代码手动跑一遍。
+6. 再读 `docs/s05-skill-loading.md`，理解 skill 发现、按需加载和 tool_result 回灌。
+7. 再读 `docs/s06-context-compact.md`，理解三层上下文压缩、占位符和 transcript。
+8. 对照 `examples/` 里的注释代码手动跑一遍。
 
 ## 当前内容
 
@@ -34,6 +36,8 @@ docs/
   s02-tool-use.md        s02: 多工具 + dispatch map
   s03-todo-write.md      s03: TodoWrite + nag reminder
   s04-subagent.md        s04: Subagent + context isolation
+  s05-skill-loading.md   s05: Skill loading + on-demand knowledge
+  s06-context-compact.md s06: Context compact + placeholders
 
 examples/
   s02_tool_use_explained.py
